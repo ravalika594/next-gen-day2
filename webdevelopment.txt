@@ -1,0 +1,26 @@
+<section id="hero">
+  <h1>Welcome to MainCrafts 🚀</h1>
+  <p>Build modern web solutions with us</p>
+  <a href="#" class="btn">Get Started</a>
+</section>
+
+#hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    background: white;
+    color: #667eea;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 1rem;
+}
